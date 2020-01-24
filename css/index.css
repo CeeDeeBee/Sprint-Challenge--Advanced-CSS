@@ -293,17 +293,17 @@ footer {
   border-radius: 5px;
   text-align: center;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #23293B;
+  cursor: pointer;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
     padding: 5% 0;
     margin-bottom: 4%;
   }
-}
-.home .walk .walk-text .btn:hover {
-  background-color: white;
-  color: #23293B;
-  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -366,6 +366,11 @@ footer {
   padding: 2% 4%;
   border-radius: 5px;
   text-align: center;
+}
+.subscribe form .form-submit-button:hover {
+  background-color: white;
+  color: #23293B;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .subscribe form .form-submit-button {
