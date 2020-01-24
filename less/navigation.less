@@ -8,12 +8,21 @@ nav {
         color: @header-font-color;
         font-size: 3.8rem;
         margin: 1% 0;
+
+        @media @phone {
+            margin: 2% 0;
+        }
     }
 
     .nav-links {
-        width: 33%;
+        width: 35%;
         .flex(space-between, center);
         margin: 1% 0;
+
+        @media @phone {
+            margin: 2% 0;
+            width: 80%;
+        }
 
         a {
             color: @nav-font;
