@@ -4,14 +4,18 @@
 
   .intro {
 
+    img {
+      border-radius: 5px;
+    }
+
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -58,13 +62,20 @@
       }
 
       .btn {
+        .button();
+
+        &:hover {
+          background-color: white;
+          color: @header-font-color;
+          cursor: pointer;
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -72,4 +83,6 @@
       }
     }
   }
-}// home
+}
+
+// home

@@ -1,1 +1,14 @@
-// Mixins Here
+.flex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.button(@width: 30%, @bg-color: @header-font-color, @font-size: 2rem, @text-color: white) {
+    width: @width;
+    background-color: @bg-color;
+    font-size: @font-size;
+    color: @text-color;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
