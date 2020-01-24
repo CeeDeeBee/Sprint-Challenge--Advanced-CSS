@@ -320,3 +320,55 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.subscribe {
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+  padding: 4% 0;
+}
+.subscribe h2 {
+  margin-bottom: 1%;
+}
+.subscribe form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .subscribe form {
+    flex-direction: column;
+  }
+}
+.subscribe form .form-input {
+  width: 50%;
+  text-align: center;
+  margin: 4% 0;
+}
+@media (max-width: 500px) {
+  .subscribe form .form-input {
+    width: 100%;
+  }
+}
+.subscribe form .form-input input {
+  width: 75%;
+  margin: 4% 0;
+  padding: 4%;
+  font-size: 1.6rem;
+}
+.subscribe form .form-input label {
+  display: none;
+}
+.subscribe form .form-submit-button {
+  width: 30%;
+  background-color: #23293B;
+  font-size: 2rem;
+  color: white;
+  padding: 2% 4%;
+  border-radius: 5px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .subscribe form .form-submit-button {
+    width: 50%;
+  }
+}

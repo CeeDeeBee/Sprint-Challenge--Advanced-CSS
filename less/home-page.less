@@ -121,4 +121,51 @@
   }
 }
 
-// home
+// Subscribe Form
+.subscribe {
+  text-align: center;
+  border-top: 1px solid @main-border-color;
+  padding: 4% 0;
+
+  h2 {
+    margin-bottom: 1%;
+  }
+
+  form {
+    .flex(space-around, center);
+    flex-wrap: wrap;
+
+    @media @phone {
+      flex-direction: column;
+    }
+
+    .form-input {
+      width: 50%;
+      text-align: center;
+      margin: 4% 0;
+
+      @media @phone {
+        width: 100%;
+      }
+
+      input {
+        width: 75%;
+        margin: 4% 0;
+        padding: 4%;
+        font-size: 1.6rem;
+      }
+
+      label {
+        display: none;
+      }
+    }
+
+    .form-submit-button {
+      .button();
+
+      @media @phone {
+        width: 50%;
+      }
+    }
+  }
+}
