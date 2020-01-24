@@ -50,7 +50,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-    My favorite feature of LESS is parametric mixins. I fell as though I still have a lot to learn about these but I can tell that they are very powerful, especially when working on large scale websites. I would say that mixins in general have given me the most trouble so far. I enjoy using them but I have found that I don't always know when I should be using a mixin and I have a tendency to want to use too many.
+    My favorite feature of LESS is parametric mixins. I fell as though I still have a lot to learn about these but I can tell that they are very powerful, especially when working on large scale websites. At the same time, I would say that mixins in general have given me the most trouble so far. I enjoy using them but I have found that I don't always know when I should be using a mixin and I have a tendency to want to use too many.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -114,7 +114,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
